@@ -2,10 +2,11 @@
 <html lang="en">
 	<head>
     	<meta charset="utf-8">
-    	<meta name="description" content="Your description goes here">
-    	<meta name="keywords" content="one, two, three">
+    	<meta name="description" content="Click the appearing shapes to test your reactions.">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-		<title>Blank Template</title>
+
+		<title>Test Your Reaction</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
@@ -13,9 +14,11 @@
 	</head>
 	<body>
 		<main>
+			<div class="textContainer">
+
 				<h1>Test Your Reactions!</h1>
 				<p>Click on the boxes and circles as quickly as you can!</p>
-				<p id="bold">Your time: <span id="timeTaken">0.000s</span></p>
+				<p class="bold">Your time: <span id="timeTaken">0.000s</span></p>
 
 				<div id="buttonClass">
 
@@ -25,11 +28,13 @@
 				</div>
 				<p id="bold">Average time: <span id="timeDisplay">0.000s</span></p>
 
-		</main>
-		
-	<div id="shape">
-	</div>
+			</div>
 
+			<div class="shapeContainer">
+				<div id="shape">
+					</div>	
+			</div>
+		</main>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
