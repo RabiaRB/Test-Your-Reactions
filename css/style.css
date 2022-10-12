@@ -25,22 +25,33 @@ html{
      height:100vh; 
      padding-top: 10px;
      background-image: linear-gradient(345deg, #ffffd0 0, #f9ffd5 8.33%, #e6ffd9 16.67%, #d2ffdc 25%, #bfffdc 33.33%, #adffda 41.67%, #9df2d5 50%, #90e1ce 58.33%, #87d1c7 66.67%, #81c5c1 75%, #7dbabc 83.33%, #7ab2b9 91.67%, #7aadb7 100%);
+     overflow-x: hidden;
   
 }
 
-main {
+main{
+     position: relative;
+}
+
+.textContainer {
+     margin-top: 20px;
+     position:absolute;
+     width: 100%;
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
      /* font-size: 120%; */
-     height: 30vh;
+     height: 35vh;
  
 }
 
 .shapeContainer{
+     border: 1px solid red;
+     position: absolute;
+     top: 35vh;
      width: 100vw;
-     height: 70vh;
+     height: 65vh;
 }
 #shape {
      height: 200px;
