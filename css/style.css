@@ -47,7 +47,6 @@ main{
 }
 
 .shapeContainer{
-     border: 1px solid red;
      position: absolute;
      top: 35vh;
      width: 100vw;
